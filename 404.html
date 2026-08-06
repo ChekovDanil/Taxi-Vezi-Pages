@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#F6F1E9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0D0F0E" media="(prefers-color-scheme: dark)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Верста" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Верста" />
+    <meta name="msapplication-TileColor" content="#151714" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="description" content="Верста — персональный транспортный сервис с прозрачными условиями поездки." />
+    <meta property="og:title" content="Верста" />
+    <meta property="og:description" content="Путь понятен. Цена прозрачна. Поездка под контролем." />
+    <meta property="og:type" content="website" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="./pwa-icon.svg" />
+    <link rel="apple-touch-icon" href="./pwa-icon.svg" />
+    <link rel="apple-touch-startup-image" href="./pwa-splash.svg" />
+    <style>
+      * { -webkit-tap-highlight-color: transparent; }
+      html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; overflow-x: hidden; overscroll-behavior: none; background: #0D0F0E; }
+      body { min-height: 100dvh; touch-action: manipulation; }
+      @media all and (display-mode: standalone) { html, body { min-height: 100%; } }
+      #root { min-height: 100dvh; background: #0D0F0E; }
+    </style>
+    <title>Верста — поездки под контролем</title>
+    <script>
+      window.addEventListener('unhandledrejection', function (event) {
+        if (!event.reason) event.preventDefault();
+      }, true);
+    </script>
+    <script type="module" crossorigin src="/Taxi-Vezi-Pages/assets/index-D7mMue1v.js"></script>
+    <link rel="stylesheet" crossorigin href="/Taxi-Vezi-Pages/assets/index-vbq2Z8Gx.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
