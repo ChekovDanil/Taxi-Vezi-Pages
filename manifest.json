@@ -1,0 +1,19 @@
+{
+  "name": "Верста",
+  "short_name": "Верста",
+  "description": "Персональный транспортный сервис с прозрачными условиями поездки.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0D0F0E",
+  "theme_color": "#B78A45",
+  "icons": [
+    {
+      "src": "pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

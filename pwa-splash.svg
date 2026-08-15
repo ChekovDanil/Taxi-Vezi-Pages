@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 2532" role="img" aria-labelledby="title desc">
+  <title id="title">Верста</title>
+  <desc id="desc">Экран запуска приложения Верста</desc>
+  <rect width="1170" height="2532" fill="#0D0F0E"/>
+  <g transform="translate(329 1010) scale(8)">
+    <rect x="2" y="2" width="60" height="60" rx="18" fill="#151714"/>
+    <path d="M19 13v39m0-37h13c9.5 0 15 3.8 15 10.1S41.5 35 32 35H19m13 0c10.7 0 17 3.2 17 9.2S43 53 32 53H19" fill="none" stroke="#D9B66F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="19" cy="13" r="4.25" fill="#151714" stroke="#D9B66F" stroke-width="3"/>
+    <circle cx="19" cy="52" r="5" fill="#151714" stroke="#D9B66F" stroke-width="3"/>
+    <circle cx="19" cy="52" r="1.7" fill="#D9B66F"/>
+  </g>
+</svg>
