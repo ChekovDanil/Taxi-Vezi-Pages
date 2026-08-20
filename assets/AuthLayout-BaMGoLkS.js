@@ -1,0 +1,1 @@
+import{j as r,A as t}from"./index-DsTGZrsA.js";function i({title:a,subtitle:s,footer:e,children:o}){return r.jsx(t,{title:a,subtitle:s,footer:e,children:r.jsx("div",{className:"rounded-[var(--v-radius-sheet)] border border-[var(--v-line)] bg-[var(--v-surface-raised)] p-5 shadow-[var(--v-shadow-floating)]",children:o})})}export{i as A};
