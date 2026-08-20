@@ -1,4 +1,4 @@
-const BUILD_ID = 'Cd67SWR4';
+const BUILD_ID = 'Cs8hPBNN';
 const CACHE_NAME = `taxi-vezi-pages-${BUILD_ID}`;
 const APP_SCOPE = '/Taxi-Vezi-Pages/';
 const APP_SHELL = [APP_SCOPE, `${APP_SCOPE}manifest.json`, `${APP_SCOPE}pwa-icon.svg`, `${APP_SCOPE}pwa-splash.svg`];
